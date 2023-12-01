@@ -3,11 +3,11 @@ Marcura Frontend Developer Test
 The goal of the challenge is to create an Angular single page application to visualise exported sea routes on the map.
 
 The CSV file with the following columns:
-route_id - some arbitrary route id
-from_port - route origin
-to_port - route destination
-leg_duration - trip duration in milliseconds
-points - an array of vessel observations from GPS where observation is [longitude, latitude, timestamp in epoch milliseconds, actual vessel speed in knots]
+* route_id - some arbitrary route id
+* from_port - route origin
+* to_port - route destination
+* leg_duration - trip duration in milliseconds
+* points - an array of vessel observations from GPS where observation is [longitude, latitude, timestamp in epoch milliseconds, actual vessel speed in knots]
 
 Requirements:
 1. Initially, no routes are shown on the map. The page should load with a global map.
@@ -20,8 +20,3 @@ Bonus requirement would be to "color" the line on the map according to vessel sp
 PS. Please publish the solution to your GitHub and invite us to review it
 
 Any questions shoot and good luck!
-
-Cheers,
-Marcura Team
-
-
